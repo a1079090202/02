@@ -1,0 +1,16 @@
+{
+  "name": "event-checkin",
+  "version": "1.0.0",
+  "description": "活动签到统计系统（Express + SQLite + 服务端渲染）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node scripts/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

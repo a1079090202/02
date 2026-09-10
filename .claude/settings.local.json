@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(node *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3000/api/events)",
+      "Bash(set *)",
+      "Bash(kill *)",
+      "Bash(echo *)",
+      "Bash(curl -s -i 'http://localhost:3000/api/events/2/lookup?last4=1111')",
+      "Bash(curl -s -i 'http://localhost:3000/api/events/2/lookup?last4=1111&initial=%E5%BC%A0')",
+      "Bash(pkill -x node)",
+      "Bash(rm -f /workspace/data/checkin.db*)"
+    ]
+  }
+}

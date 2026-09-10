@@ -1,0 +1,113 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #f5f6f8;
+  color: #222;
+}
+
+.topbar {
+  background: #2c3e50;
+  color: #fff;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar a { color: #fff; text-decoration: none; }
+.topbar .brand { font-weight: 700; font-size: 18px; }
+
+.container { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+
+h1 { font-size: 22px; }
+h2 { font-size: 17px; margin-top: 28px; }
+.muted { color: #888; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin: 12px 0;
+}
+th, td {
+  padding: 8px 12px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+  font-size: 14px;
+}
+th { background: #fafafa; color: #555; }
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 16px 0;
+}
+
+.form label {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+}
+.form input, .form select {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  padding: 8px 10px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.form.inline label { display: inline-block; margin-right: 16px; }
+.form.inline input { display: inline-block; width: auto; }
+.form .checkbox input { display: inline; width: auto; }
+
+button, .btn {
+  display: inline-block;
+  background: #2c7be5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 4px 4px 4px 0;
+}
+button:disabled { background: #9db8d9; cursor: default; }
+.btn { background: #eef2f7; color: #2c3e50; border: 1px solid #d5dde6; }
+
+.stats { display: flex; gap: 16px; margin: 16px 0; flex-wrap: wrap; }
+.stat {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 14px 24px;
+  text-align: center;
+  min-width: 110px;
+}
+.stat b { display: block; font-size: 26px; }
+.stat span { color: #888; font-size: 13px; }
+
+.flash {
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin: 12px 0;
+  font-size: 14px;
+}
+.flash-ok { background: #e6f6e6; color: #1c7a1c; border: 1px solid #b8e6b8; }
+.flash-error { background: #fdecea; color: #b3261e; border: 1px solid #f5c6c2; }
+
+.match {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 4px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.tag.done { color: #1c7a1c; font-size: 13px; }
+
+.actions a { margin-right: 8px; }
